@@ -1,0 +1,45 @@
+
+strictness: none
+autodetect: false
+test-warnings: true
+ignore-paths:
+  - build
+  - .git
+  - django/utils/lru_cache.py
+  - django/utils/six.py
+  - django/conf/app_template
+  - django/dispatch/weakref_backports.py
+  - tests/.env
+  - xmlrunner
+max-line-length: 119
+
+pylint:
+  run: false
+
+mccabe:
+  run: false
+
+dodgy:
+  run: false
+
+pep8:
+  disable:
+    - E123
+    - E128
+    - E265
+    - E501
+    - W601
+    - N801
+    - N802
+    - N803
+    - N804
+    - N805
+    - N806
+    - N807
+    - N808
+    - N809
+    - N810
+    - N811
+    - N812
+    - N813
+    - N814
